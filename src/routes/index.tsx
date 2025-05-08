@@ -10,6 +10,7 @@ import Login from "@/pages/auth/Login"
 import Register from "@/pages/auth/Register"
 import AuthLayout from "@/pages/auth/AuthLayout"
 import Plans from "@/pages/landing/Plans"
+import Course from "@/pages/landing/courses/Course"
 
 export default function Index() {
 
@@ -46,6 +47,10 @@ export default function Index() {
                 {
                     path: "plans",
                     element: <Plans />,
+                },
+                {
+                    path: "course",
+                    element: <Course />,
                 }
             ],
         },
