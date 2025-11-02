@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import Container from "./Container";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import Logo from "@/assets/img/logo.svg";
 
 export default function Footer() {
   return (
     <footer className="bg-[#4271E5] border-t-[.875rem] border-t-[#3060E3]">
       <Container>
-        <div className="text-white/80 flex justify-between items-center py-10 text-sm">
+        <div className="text-white/80 flex flex-col md:flex-row justify-between items-center py-10 text-sm gap-8">
           <Link to="/" className="">
-            Logo
+            <img src={Logo} alt="" />
           </Link>
-          <div className="flex gap-6 items-center">
             <nav className="flex gap-6">
               <Link to="/" className="transition hover:text-white">
                 Inicio
@@ -36,10 +36,9 @@ export default function Footer() {
                 <Instagram size={20} />
               </Link>
             </div>
-          </div>
         </div>
         <div className="py-10">
-            <p className="text-white/80">
+            <p className="text-white/80 text-center md:text-left">
               &copy; {new Date().getFullYear()} Robertech. Todos los derechos
               reservados.
             </p>

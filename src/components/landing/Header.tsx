@@ -28,7 +28,7 @@ export default function Header() {
                 <Link to="/" className="">
                     <img src={Logo} alt="logo" className=""/>
                 </Link>
-                <nav className="flex items-center text-white/80">
+                <nav className="hidden md:flex items-center text-white/80">
                     <Link to="/about" className=" py-1.5 px-3.5 hover:text-white transition-colors">
                         About
                     </Link>
@@ -39,7 +39,7 @@ export default function Header() {
                         Products
                     </Link>
                 </nav>
-                <div className="flex items-center gap-4">
+                <div className="hidden md:flex items-center gap-4">
                     <Button variant={'ghost'} asChild>
                         <Link to="/auth" className="">
                         Iniciar Sesión
