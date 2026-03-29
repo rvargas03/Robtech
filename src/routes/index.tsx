@@ -37,6 +37,10 @@ export default function Index() {
                     element: <Products />,
                 },
                 {
+                    path: "store",
+                    element: <Products />,
+                },
+                {
                     path: "cart",
                     element: <Cart/>,
                 },

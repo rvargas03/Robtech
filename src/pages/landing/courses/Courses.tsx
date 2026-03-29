@@ -1,10 +1,14 @@
+import ComingMessage from "@/components/ComingMessage";
 import Container from "@/components/landing/Container";
 import CourseCard from "@/components/landing/courses/CourseCard";
 
 export default function Courses() {
   return (
     <>
-    <section className="py-20">
+    <section className="py-20 relative">
+    
+    <ComingMessage message="Cursos proximamente..." />    
+    
     <Container> 
         <h1 className="text-4xl font-medium ">
             Mis cursos 
@@ -33,7 +37,8 @@ export default function Courses() {
         </div>
     </Container>
 </section>
-<section className="py-20">
+<section className="py-20 relative">
+     <ComingMessage />    
     <Container>
         <h2 className="text-4xl font-medium ">
             Todos los cursos

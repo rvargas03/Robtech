@@ -1,9 +1,11 @@
 import Phone from "@/assets/img/phone.png"
+import ComingMessage from "@/components/ComingMessage"
 import Container from "@/components/landing/Container"
 
 export default function Products() {
   return (
-    <section className="py-20">
+    <section className="py-20 relative">
+        <ComingMessage message="Productos disponibles proximamente..." />
         <Container> 
             <h1 className="text-5xl text-center font-medium ">
                 Robtech Shop 

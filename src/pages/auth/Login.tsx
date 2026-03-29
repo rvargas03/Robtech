@@ -38,7 +38,7 @@ export default function Login() {
         >
           ¿Olvidaste tu contraseña?
         </a>
-        <button className="py-4 font-medium mt-8 w-full rounded bg-[#3071FF] shadow-[0px_6px_0px_0_#0033a4] text-white text-sm transition hover:bg-white hover:text-[#4271E5]">
+        <button className="py-4 font-medium mt-8 w-full rounded bg-[#3071FF] shadow-[0px_6px_0px_0_#0033a4] text-white text-sm transition hover:bg-white/30 hover:text-[#4271E5]">
           Iniciar sesión
         </button>
       </form>
