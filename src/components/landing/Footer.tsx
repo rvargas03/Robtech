@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import Container from "./Container";
-import { Facebook, Instagram } from "lucide-react";
 import Logo from "@/assets/img/logo.svg";
 import LogoIcon from "@/assets/icon/Logo";
 
@@ -13,7 +12,7 @@ export default function Footer() {
       <Container>
         <div className="text-white/80 flex flex-col md:flex-row justify-between items-center py-10 text-sm gap-8">
           <Link to="/" className="flex items-center gap-4">
-                <LogoIcon className="w-32" />
+                <LogoIcon />
                 <img src={Logo} alt="logo" className=""/>
             </Link>
           <nav className="flex flex-col md:flex-row text-center md:text-left gap-6">

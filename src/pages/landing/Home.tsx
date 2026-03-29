@@ -4,7 +4,6 @@ import CourseCard from "@/components/landing/courses/CourseCard";
 import Service from "@/components/landing/Service";
 import Text from "@/components/landing/Text";
 import { Button } from "@/components/ui/button";
-import Line from "@/assets/icon/line.min.svg";
 import { Bot, Cable, Code, Facebook, FlaskConical, Gamepad, Instagram, MapPin, Plug } from "lucide-react";
 import TopicCard from "@/components/landing/TopicCard";
 import { Link } from "react-router-dom";
